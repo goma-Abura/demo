@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000" font-family="Microsoft YaHei, PingFang SC, sans-serif">
+  <rect x="0" y="0" width="1000" height="1000" fill="#FFFFFF"/>
+
+  <text x="500" y="40" text-anchor="middle" font-size="26" font-weight="bold" fill="#1C2126">结构确认 v5 · 中央纯虚空（无图形）</text>
+  <text x="500" y="68" text-anchor="middle" font-size="15" fill="#6B7280">等距等宽环带=背景 · 四叉跨三层=前景 · 虚菱形由内臂隐约延伸生成（不画出）</text>
+
+  <!-- 背景层：四层等距等宽环带 -->
+  <g stroke="#8A94A0" stroke-width="16" fill="none" opacity="0.4">
+    <circle cx="500" cy="500" r="420"/>
+    <circle cx="500" cy="500" r="330"/>
+    <circle cx="500" cy="500" r="240"/>
+    <circle cx="500" cy="500" r="150"/>
+  </g>
+
+  <!-- 前景层：井字四叉（=四元素占位，跨环带 r165→430） -->
+  <g stroke-linecap="round">
+    <path d="M 394,94 L 606,306 M 394,306 L 606,94" stroke="#2FA84F" stroke-width="22" opacity="0.55"/>
+    <path d="M 906,394 L 694,606 M 906,606 L 694,394" stroke="#3E7BE0" stroke-width="22" opacity="0.55"/>
+    <path d="M 394,694 L 606,906 M 394,906 L 606,694" stroke="#E0A63E" stroke-width="22" opacity="0.55"/>
+    <path d="M 94,394 L 306,606 M 94,606 L 306,394" stroke="#E0393E" stroke-width="22" opacity="0.55"/>
+  </g>
+
+  <!-- 中央：纯虚空，不画任何图形。以下仅标注说明（可移除） -->
+  <text x="500" y="700" text-anchor="middle" font-size="14" fill="#9AA3AD">中央 = 纯虚空（无图形）· 虚菱形由四叉内臂隐约延伸生成（顶点约 r≈65）</text>
+
+  <!-- 标注 -->
+  <text x="60" y="160" font-size="15" fill="#6B7280">背景：等距等宽环带</text>
+  <text x="720" y="300" font-size="15" fill="#6B7280">前景：井字四叉</text>
+  <text x="720" y="324" font-size="13" fill="#9AA3AD">跨环带 r165→430</text>
+
+  <!-- 底部说明 -->
+  <text x="500" y="955" text-anchor="middle" font-size="15" fill="#6B7280">定论：间距等差等距 · 宽度等宽 · 叉跨全部三层 · 虚菱形顶点 r≈65（隐约、不画出）</text>
+  <text x="500" y="978" text-anchor="middle" font-size="15" fill="#6B7280">待定：①四叉与四元素的一体形态（元素阶段）②门槛/道路感成图表达</text>
+</svg>
